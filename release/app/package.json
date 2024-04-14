@@ -1,0 +1,18 @@
+{
+  "name": "tldraw-desktop",
+  "version": "1.0.0",
+  "description": "A desktop app for Tldraw",
+  "license": "MIT",
+  "author": {
+    "name": "Manoj Narasimha",
+    "email": "manojmodugala@gmail.com",
+    "url": "https://github.com/manoj-narasimha"
+  },
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "postinstall": "npm run rebuild && npm run link-modules",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts"
+  },
+  "dependencies": {}
+}
