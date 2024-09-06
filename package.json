@@ -1,6 +1,7 @@
 {
   "description": "A desktop app for tldraw",
-  "keywords": ["tldraw", "desktop", "tldraw desktop", "software", "drawing"],
+  "keywords": ["tldraw", "desktop", "tldraw desktop", "software", "drawing", "electron js","electron.js"],
+  "tags": ["tldraw", "desktop", "tldraw desktop", "software", "drawing", "electron js","electron.js"],
   "license": "MIT",
   "author": {
     "name": "Manoj Narasimha",
